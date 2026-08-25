@@ -15,7 +15,7 @@ st.subheader('Using Logisic Regression')
 
 features, scaler, model, Y_pred, cr, cm = logistic_Cardio_Predict()
 
-API_URL = 'http://127.0.0.1:8000/predict-cardio-logistic'
+API_URL = 'https://cardiovasculardisease.onrender.com/predict-cardio-logistic'
 
 st.sidebar.header(
     'Cardio Features'
